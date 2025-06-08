@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus | Premium Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Announcement Bar -->
+    <div class="announcement">
+        <p>🚀 Free shipping on all orders over $50! | Use code: NEXUS10 for 10% off</p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">NEXUS</a>
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#products">Shop</a>
+                <a href="#features">Features</a>
+                <a href="#testimonials">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="nav-icons">
+                <a href="#" id="search-btn"><i class="fas fa-search"></i></a>
+                <a href="#" id="user-btn"><i class="fas fa-user"></i></a>
+                <a href="#" id="cart-btn"><i class="fas fa-shopping-cart"><span class="cart-count">0</span></i></a>
+                <div class="hamburger" id="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Box -->
+    <div class="search-box" id="search-box">
+        <input type="text" placeholder="Search products...">
+        <i class="fas fa-times" id="close-search"></i>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Next-Gen Tech at Your Fingertips</h1>
+            <p>Discover the latest in electronics with premium quality and unbeatable prices.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Featured Categories -->
+    <section class="categories">
+        <div class="category-card">
+            <img src="assets/images/category1.jpg" alt="Smartphones">
+            <div class="category-info">
+                <h3>Smartphones</h3>
+                <a href="#">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="category-card">
+            <img src="assets/images/category2.jpg" alt="Laptops">
+            <div class="category-info">
+                <h3>Laptops</h3>
+                <a href="#">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="category-card">
+            <img src="assets/images/category3.jpg" alt="Accessories">
+            <div class="category-info">
+                <h3>Accessories</h3>
+                <a href="#">Shop Now <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-header">
+            <h2>Featured Products</h2>
+            <p>Browse our curated selection of premium electronics</p>
+        </div>
+        <div class="product-container" id="product-container">
+            <!-- Products will be loaded from JavaScript -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="feature-card">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Free Shipping</h3>
+            <p>On all orders over $50</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-undo"></i>
+            <h3>30-Day Returns</h3>
+            <p>No questions asked</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-lock"></i>
+            <h3>Secure Payment</h3>
+            <p>100% secure checkout</p>
+        </div>
+        <div class="feature-card">
+            <i class="fas fa-headset"></i>
+            <h3>24/7 Support</h3>
+            <p>Dedicated support</p>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-header">
+            <h2>What Our Customers Say</h2>
+            <p>Trusted by thousands of tech enthusiasts worldwide</p>
+        </div>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"The best electronics store I've shopped at. Fast delivery and excellent customer service!"</p>
+                <div class="customer">
+                    <img src="assets/images/customer1.jpg" alt="Sarah J.">
+                    <h4>Sarah J.</h4>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p>"Impressive product quality and the prices are unbeatable. Will definitely shop here again!"</p>
+                <div class="customer">
+                    <img src="assets/images/customer2.jpg" alt="Michael T.">
+                    <h4>Michael T.</h4>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Their return policy is amazing. Had an issue with my order and it was resolved immediately."</p>
+                <div class="customer">
+                    <img src="assets/images/customer3.jpg" alt="Emma K.">
+                    <h4>Emma K.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="newsletter-content">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Get the latest updates on new products and upcoming sales</p>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>NEXUS</h4>
+                <p>Your premier destination for cutting-edge electronics and tech gadgets.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> support@nexusshop.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Nexus. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <i class="fas fa-times" id="close-cart"></i>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Cart items will be loaded here -->
+            <div class="empty-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <h4>Total:</h4>
+                <span id="cart-total">$0.00</span>
+            </div>
+            <a href="#" class="btn checkout-btn">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <!-- Product Quick View Modal -->
+    <div class="quick-view-modal" id="quick-view-modal">
+        <div class="modal-content">
+            <i class="fas fa-times close-modal" id="close-modal"></i>
+            <div class="modal-product-details" id="modal-product-details">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
